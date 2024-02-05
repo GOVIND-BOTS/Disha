@@ -1,4 +1,4 @@
-from ArohiX.mongo import db
+from ArohiX.core.mongo import db
 
 coupledb = db.couple
 
