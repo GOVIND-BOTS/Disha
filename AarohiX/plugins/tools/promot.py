@@ -1,3 +1,4 @@
+from AarohiX import app
 from pyrogram import Client, filters
  
  
