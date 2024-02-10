@@ -3,7 +3,7 @@ from pyrogram import Client, filters
  
  
  # The Command to promote a user to admin rights
- @app.on_message(filters.command("promote") & filters.group)
+ @app.on_message(filters.command(["promote", "admin" ], prefixes=["/", "@", "#"]))
  def promote(client, message):
      chat_id = message.chat.id
      from_user = message.from_user
