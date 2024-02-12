@@ -1,10 +1,10 @@
 import asyncio
 import re
 from datetime import datetime
-
+import requests
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton
-
+from AarohiX import app
 from AarohiX import mongo
 
 edit_time = 5
