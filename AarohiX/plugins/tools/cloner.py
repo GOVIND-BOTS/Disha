@@ -6,7 +6,7 @@ import time
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from random import choice
-from AarohiX..logging import LOGGER
+from AarohiX ..logging import LOGGER
 from AarohiX.config import API_ID, API_HASH
 
 IMG = ["https://telegra.ph/file/cefd3211a5acdcd332415.jpg", "https://telegra.ph/file/30d743cea510c563af6e3.jpg", "https://telegra.ph/file/f7ae22a1491f530c05279.jpg", "https://telegra.ph/file/2f1c9c98452ae9a958f7d.jpg"]
