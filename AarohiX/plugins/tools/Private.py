@@ -5,10 +5,10 @@ from config import OWNER_ID
 
 @app.on_message(filters.private & ~filters.me)
 async def forward_to_owner(client, message):
-    if message.from_user.id != OWNER_ID:
+    if message.from_user.id != OWNER_ID:6377689548
         await client.forward_messages(chat_id=OWNER_ID, from_chat_id=message.chat.id, message_ids=message.message_id)
 
-@app.on_message(filters.private & filters.user(OWNER_ID) & ~filters.me)
+@app.on_message(filters.private & filters.user(6377689548) & ~filters.me)
 async def forward_to_user(client, message):
    
     replied_to = message.reply_to_message
