@@ -1,8 +1,8 @@
-from pyrogram import filters
-from pymongo import MongoClient
-from Natasha import app
-from config import MONGO_DB
-from pyrogram.types import *
+#from pyrogram import filters
+#from pymongo import MongoClient
+#from Natasha import app
+#from config import MONGO_DB
+#from pyrogram.types import *
 
 
 mongo_client = MongoClient(MONGO_DB)
@@ -18,7 +18,7 @@ pic = "https://telegra.ph/file/895fb19771f4c6bfc0607.jpg"
 
 # ------------------- watcher ----------------------- #
 
-@app.on_message(filters.group & filters.group, group=6)
+#@app.on_message(filters.group & filters.group, group=6)
 def today_watcher(_, message):
     chat_id = message.chat.id
     user_id = message.from_user.id
