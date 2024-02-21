@@ -5,7 +5,7 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton
 from AarohiX import app
-from AarohiX import mongo
+from AarohiX.core import mongo 
 
 edit_time = 5
 
