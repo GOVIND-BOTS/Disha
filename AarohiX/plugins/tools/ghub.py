@@ -1,4 +1,4 @@
- from pyrogram import filters
+from pyrogram import Client, filters
 import requests, random
 from bs4 import BeautifulSoup
 from AarohiX import app
