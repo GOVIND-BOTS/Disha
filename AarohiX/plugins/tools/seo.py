@@ -3,7 +3,8 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from AarohiX import app
-
+import asyncio
+from io import BytesIO
 from pyrogram.types import Message
 from datetime import datetime
 from time import time
@@ -12,7 +13,8 @@ from asyncio import sleep
 from pyrogram import Client, enums
 from pyrogram.types import Message, User
 from pyrogram import Client, enums, filters
-
+from time import time
+from pyrogram.errors.exceptions.bad_request_400 import ChatNotModified
 # Commands list
 CMDS = [
     "guddu", "hii", "hello", "bot", "abhi", "kider", "vc", "ok", "lol", "haa", "nahi", "yes", "sure", "@govind_official_mppp",
